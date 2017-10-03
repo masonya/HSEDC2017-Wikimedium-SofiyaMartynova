@@ -1,14 +1,81 @@
-
 body{
-  font-family: 'PT Serif', sans-serif;
+  font-family: 'PT Sans','Arial', sans-serif;
+  width: 700px;
+  margin: 0 auto;
+  background-image: url(../img/dc-online-media-mockup.jpg);
+ background-size: 800px 20624px;
+ background-position: top center;
+ background-repeat: no-repeat;
+}
+div{
+    font-size: 22px;
+    line-height: 32px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+    color: rgba(0,0,0,.5);
 }
 p {
     font-size: 21px;
-    line-height: 26px;
+    line-height: 32px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
 }
 h1 {
-    color: red;
+    color: black;
+    font-size: 40px;
+    line-height: 1.4ea;
+    text-decoration: uppercase;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+h2 {
+    color: rgba(0,0,0,.8);
     font-size: 30px;
     line-height: 1.4ea;
     text-decoration: uppercase;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+}
+h3 {
+    color: rgba(0,0,0,.8);
+    font-size: 25px;
+    line-height: 1.4ea;
+    text-decoration: uppercase;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+}
+blockquote {
+    font-size: 21px;
+    line-height: 32px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+    font-style: italic;
+    border-width: 0 0 0 3px;
+    border-style: solid;
+    padding-left: 10px;
+}
+ul {
+  font-size: 21px;
+  line-height: 32px;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+}
+li {
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: 30px;
 }
