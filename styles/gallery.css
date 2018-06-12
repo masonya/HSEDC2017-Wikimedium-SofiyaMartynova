@@ -25,6 +25,18 @@
   margin: 0 auto;
 }
 
+.gallery figcaption {
+  height: 51px;
+  font-size: 14px;
+  line-height: 50px;
+  text-align: center;
+  color: rgba(0, 0, 0, .4)
+}
+
+.gallery figcaption a {
+  text-decoration: underline;
+}
+
 .galleryNav {
   position: absolute;
   display: -webkit-box;
@@ -77,4 +89,9 @@
 .galleryNavItem#next {
   -webkit-transform: rotate(135deg);
   transform: rotate(135deg);
+}
+
+.galleryNavItem.disabled {
+  opacity: 0;
+  cursor: default;
 }

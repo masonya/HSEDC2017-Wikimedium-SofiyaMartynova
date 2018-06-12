@@ -10,7 +10,7 @@ $(function() {
   }
 
   function canMovePrev() {
-    return state.currentImage >= 0;
+    return state.currentImage != - 1;
   }
 
   function railTransition() {
@@ -70,6 +70,7 @@ $(function() {
       checkMoveAvailability();
     }
 
+  console.log(state);
     // console.log('cur:');
     // console.log(state);
   });
